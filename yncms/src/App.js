@@ -11,7 +11,7 @@ function App() {
 
 
   useEffect(() => {
-    axios.post('http://yncms.domiruby.cn/blog/list', {
+    axios.post('http://yncms.domiruby.cn/api/blog/list', {
       page_num: 0,
       page_size: 5
     })
